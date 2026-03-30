@@ -4075,3 +4075,12 @@ section:before,
 h1, h2, h3, h4, h5, h6 {
     color: #000000 !important;
 }
+/* --- VERNE THEME — step 7: fix site title color --- */
+
+#header .logo,
+#header .logo strong,
+#header .logo span,
+#header h1,
+#header h1 a {
+    color: #000000 !important;
+}
