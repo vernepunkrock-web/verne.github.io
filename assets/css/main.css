@@ -3971,3 +3971,29 @@ a {
 a:hover {
     opacity: 0.6;
 }
+/* --- VERNE THEME — step 2: remove template colors --- */
+
+/* Supprime les fonds colorés des tuiles */
+.tiles article:before {
+    background: rgba(0,0,0,0.15) !important;
+}
+
+/* Supprime les gros blocs colorés dans les sections */
+.major {
+    background: transparent !important;
+}
+
+/* Enlève la couleur rose/rouge des boutons */
+.button {
+    background-color: #000000 !important;
+    color: #ffffff !important;
+    border: none !important;
+}
+.button:hover {
+    background-color: #333333 !important;
+}
+
+/* Enlève les fonds colorés derrière les titres */
+header.major:before {
+    background: none !important;
+}
