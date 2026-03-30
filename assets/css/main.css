@@ -4013,3 +4013,12 @@ header.major:before {
 .tiles article:before {
     background: rgba(0,0,0,0.05) !important;
 }
+/* --- VERNE THEME — step 4: remove the big colored background behind tiles --- */
+
+section.tiles {
+    background: #ffffff !important;
+}
+
+section.tiles:before {
+    background: none !important;
+}
