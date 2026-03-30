@@ -3997,3 +3997,19 @@ a:hover {
 header.major:before {
     background: none !important;
 }
+/* --- VERNE THEME — step 3: kill the Kiabi background --- */
+
+/* Supprime le fond coloré derrière chaque tuile */
+.tiles article {
+    background: #ffffff !important;
+}
+
+/* Supprime aussi le fond coloré du hover */
+.tiles article:hover {
+    background: #f2f2f2 !important;
+}
+
+/* Supprime le gros overlay rose/rouge */
+.tiles article:before {
+    background: rgba(0,0,0,0.05) !important;
+}
