@@ -3950,3 +3950,24 @@ input, select, textarea {
 			opacity: 1;
 			visibility: visible;
 		}
+/* --- VERNE THEME — step 1: simple black & white base --- */
+
+/* Fond clair, texte noir */
+body, #wrapper {
+    background: #ffffff !important;
+    color: #000000 !important;
+}
+
+/* Images en noir & blanc */
+.image img {
+    filter: grayscale(100%);
+}
+
+/* Liens sobres */
+a {
+    color: #000000 !important;
+    text-decoration: none;
+}
+a:hover {
+    opacity: 0.6;
+}
