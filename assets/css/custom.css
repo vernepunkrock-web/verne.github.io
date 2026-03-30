@@ -1,0 +1,16 @@
+/* Test visible : si ce fichier est chargé, tu le vois tout de suite */
+body {
+    background: #fffbcc !important; /* jaune pâle */
+    color: #000000 !important;
+}
+
+/* Titre VERNE du banner en noir bien visible */
+#banner .major h1 {
+    color: #000000 !important;
+}
+
+/* Juste pour être sûr qu'on le voit bien */
+#banner .major h1 {
+    font-size: 3rem !important;
+    text-transform: uppercase !important;
+}
