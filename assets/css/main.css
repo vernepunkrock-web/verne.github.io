@@ -4093,3 +4093,33 @@ h1, h2, h3, h4, h5, h6 {
 #header .logo {
     color: #000000 !important;
 }
+/* --- VERNE THEME — force site title to be visible --- */
+
+/* Cas 1 : logo sous forme de lien */
+#header .logo,
+#header .logo a {
+    color: #000000 !important;
+    opacity: 1 !important;
+}
+
+/* Cas 2 : logo sous forme de h1 */
+#header h1,
+#header h1 a {
+    color: #000000 !important;
+    opacity: 1 !important;
+}
+
+/* Cas 3 : mode ALT du header (le coupable le plus probable) */
+#header.alt .logo,
+#header.alt .logo a,
+#header.alt h1,
+#header.alt h1 a {
+    color: #000000 !important;
+    opacity: 1 !important;
+}
+
+/* Cas 4 : si le texte est masqué par un blend-mode */
+#header .logo,
+#header .logo a {
+    mix-blend-mode: normal !important;
+}
