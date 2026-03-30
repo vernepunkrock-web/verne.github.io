@@ -4042,3 +4042,31 @@ body, #wrapper, section, article, header, footer {
 *:after {
     background-color: transparent !important;
 }
+/* --- VERNE THEME — kill global background colors --- */
+
+/* Neutralise le fond violet/bleu du header */
+#header.alt {
+    background: #ffffff !important;
+}
+
+/* Neutralise le fond coloré du banner */
+#banner.major {
+    background: #ffffff !important;
+}
+
+/* Neutralise le fond coloré derrière les sections */
+section {
+    background: #ffffff !important;
+}
+
+/* Neutralise les dégradés du template */
+#banner:before,
+#header:before,
+section:before,
+.tiles:before {
+    background: none !important;
+}
+
+/* Neutralise le fond gris/bleu des tuiles */
+.tiles article {
+    background: #ffffff !important;
