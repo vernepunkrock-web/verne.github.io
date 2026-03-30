@@ -4123,3 +4123,10 @@ h1, h2, h3, h4, h5, h6 {
 #header .logo a {
     mix-blend-mode: normal !important;
 }
+/* --- VERNE THEME — fix banner title --- */
+
+#banner .inner h1,
+#banner .inner h1 a {
+    color: #000000 !important;
+    opacity: 1 !important;
+}
