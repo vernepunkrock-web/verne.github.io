@@ -4143,3 +4143,16 @@ h1, h2, h3, h4, h5, h6 {
     z-index: 9999 !important;
     color: #000000 !important;
 }
+/* --- VERNE THEME — bring the banner title back into view --- */
+
+#banner .inner {
+    padding-top: 2rem !important;   /* réduit l'espace en haut */
+    padding-bottom: 2rem !important;
+}
+
+#banner .inner h1 {
+    margin-top: 0 !important;       /* empêche le titre de sortir du cadre */
+    padding-top: 0 !important;
+    color: #000000 !important;
+    position: relative !important;
+    z-index: 9999 !important;
