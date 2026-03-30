@@ -4022,3 +4022,23 @@ section.tiles {
 section.tiles:before {
     background: none !important;
 }
+/* --- VERNE THEME — step 5: force full black & white --- */
+
+/* Neutralise toutes les couleurs du thème Forty */
+:root {
+    --accent: #000000 !important;
+    --accent-bg: #ffffff !important;
+    --accent-fg: #000000 !important;
+}
+
+/* Neutralise les backgrounds colorés résiduels */
+body, #wrapper, section, article, header, footer {
+    background-color: #ffffff !important;
+    color: #000000 !important;
+}
+
+/* Neutralise les overlays colorés */
+*:before,
+*:after {
+    background-color: transparent !important;
+}
