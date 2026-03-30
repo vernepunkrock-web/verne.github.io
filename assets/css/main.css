@@ -4070,3 +4070,8 @@ section:before,
 /* Neutralise le fond gris/bleu des tuiles */
 .tiles article {
     background: #ffffff !important;
+/* --- VERNE THEME — step 6: titles visible again --- */
+
+h1, h2, h3, h4, h5, h6 {
+    color: #000000 !important;
+}
