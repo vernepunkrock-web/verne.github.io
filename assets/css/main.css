@@ -189,16 +189,18 @@ a {
 #banner .content p {
     margin-top: 0.5rem !important;
 }
-/* --- TUILES VERNE — version propre et moderne --- */
+/* --- TUILES VERNE : Bio / Music / Shows --- */
 
-.tiles {
+/* Le conteneur des tuiles */
+#one {
     display: flex;
     flex-wrap: wrap;
     gap: 2rem;
     margin-top: 2rem;
 }
 
-.tiles article {
+/* Chaque tuile */
+#one > article {
     background: #f4f4f4;
     border: 1px solid #e0e0e0;
     border-radius: 6px;
@@ -208,29 +210,32 @@ a {
     transition: transform 0.2s ease, background 0.2s ease;
 }
 
-.tiles article:hover {
+/* Effet au survol */
+#one > article:hover {
     background: #eaeaea;
     transform: translateY(-4px);
 }
 
-.tiles article .image img {
+/* Image en haut de la tuile */
+#one > article .image img {
     width: 100%;
     height: auto;
     display: block;
     filter: grayscale(100%);
 }
 
-.tiles article header.major {
+/* Titre + texte dans la tuile */
+#one > article header.major {
     padding: 1rem 1.2rem;
 }
 
-.tiles article h3 {
+#one > article h3 {
     margin: 0 0 0.5rem 0;
     font-size: 1.3rem;
     color: #000000;
 }
 
-.tiles article p {
+#one > article p {
     margin: 0;
     color: #333333;
 }
