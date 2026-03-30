@@ -4084,3 +4084,12 @@ h1, h2, h3, h4, h5, h6 {
 #header h1 a {
     color: #000000 !important;
 }
+/* --- VERNE THEME — fix invisible site title --- */
+
+#header .logo a {
+    color: #000000 !important;
+}
+
+#header .logo {
+    color: #000000 !important;
+}
